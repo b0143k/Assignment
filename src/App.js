@@ -1,19 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import UserCard from './UserCard/UserCard';
+import { Invitation } from './components/invitation';
 
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
+  return (
+    <div className="App">
 
-                <UserCard />
-                <UserCard />
-                <UserCard />
+      <Invitation party=" Birthday party Invitation 
+" email="jaGdish@gmail.com
+" name="jaGdish" persons="Ritu , Saurabh , Kartik ."
+        venue="Green field Avenue"
+        from=" JaGdish
+"/>
 
-            </header>
-        </div>
-    );
+    </div>
+  );
 }
 
 export default App;
