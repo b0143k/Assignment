@@ -1,26 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import ReactLogo from './React-Logo/ReactLogo';
-import ReactBenefits from './React benefits/ReactBenefits';
-import Button from './Button/Button';
+import UserCard from './UserCard/UserCard';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-  
-        <ReactLogo />
-        
-        <p>
-          Benefits of react
-        </p>
-        <ReactBenefits />
-        <Button />
+    return (
+        <div className="App">
+            <header className="App-header">
 
+                <UserCard />
+                <UserCard />
+                <UserCard />
 
-      </header>
-    </div>
-  );
+            </header>
+        </div>
+    );
 }
 
 export default App;
